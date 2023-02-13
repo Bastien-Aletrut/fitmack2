@@ -1,0 +1,60 @@
+@media screen and (max-width:480px) {
+    .menu-nav{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background-color: #668F6F;
+        opacity: 80%;
+        color: #ffffff;
+    }
+    .menu-items{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    .menu-icon{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        
+    }
+    .menu-ligne{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        position: fixed;
+        height: 100%;
+    }
+    .menu-item{
+        font-size: 25px;
+    }
+
+    
+}
+@media screen and (min-width:480px) and (max-width:1024px)  {
+    .menu-nav{
+        position: fixed;
+        height: 5%;
+        width: 100%;
+        background-color: #636363;
+        opacity: 100%;
+    }
+}
+@media screen and (min-width:1024px){
+    .menu-nav{
+        position: fixed;
+        height: 5%;
+        width: 100%;
+        background-color: #636363;
+        opacity: 100%;
+    }
+}

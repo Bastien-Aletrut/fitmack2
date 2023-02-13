@@ -7,11 +7,8 @@ import './App.css';
 
 const App = () => (
   <div className="App">
-    <h1>web app</h1>
-    <div className="gradient__bg">
-      <Navbar />
-      <Header />
-    </div>
+    <Navbar />
+    <Article />
     <Brand />
     <Features />
     <Possibility />
